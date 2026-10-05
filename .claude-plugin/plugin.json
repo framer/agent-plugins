@@ -1,0 +1,14 @@
+{
+	"name": "framer",
+	"displayName": "Framer",
+	"version": "1.0.0",
+	"description": "Read and edit Framer projects through the Framer MCP server.",
+	"author": {
+		"name": "Framer",
+		"url": "https://www.framer.com"
+	},
+	"homepage": "https://github.com/framer/agent-plugins",
+	"repository": "https://github.com/framer/agent-plugins",
+	"license": "MIT",
+	"keywords": ["framer", "website", "design", "cms", "no-code", "mcp"]
+}

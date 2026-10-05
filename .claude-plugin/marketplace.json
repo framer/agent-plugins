@@ -1,0 +1,18 @@
+{
+	"$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+	"name": "framer",
+	"description": "Framer plugins for Claude.",
+	"owner": {
+		"name": "Framer",
+		"url": "https://www.framer.com"
+	},
+	"plugins": [
+		{
+			"name": "framer",
+			"source": "./",
+			"description": "Read and edit Framer projects through the Framer MCP server.",
+			"category": "design",
+			"homepage": "https://github.com/framer/agent-plugins"
+		}
+	]
+}

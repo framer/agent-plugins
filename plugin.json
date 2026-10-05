@@ -1,0 +1,37 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "framer",
+	"version": "1.0.0",
+	"description": "Read and edit Framer projects through the Framer MCP server.",
+	"author": {
+		"name": "Framer",
+		"url": "https://www.framer.com"
+	},
+	"homepage": "https://github.com/framer/agent-plugins",
+	"repository": "https://github.com/framer/agent-plugins",
+	"license": "MIT",
+	"keywords": ["framer", "website", "design", "cms", "no-code", "mcp"],
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "Framer",
+				"shortDescription": "Read and edit Framer projects",
+				"longDescription": "Open a Framer project by URL and work on it from a conversation: inspect pages, components, styles, and CMS collections, and make changes on a branch you can review in Framer.",
+				"developerName": "Framer",
+				"category": "Creativity",
+				"capabilities": ["Interactive", "Read", "Write"],
+				"websiteURL": "https://www.framer.com",
+				"privacyPolicyURL": "https://www.framer.com/legal/privacy-statement/",
+				"termsOfServiceURL": "https://www.framer.com/legal/terms-of-service/",
+				"defaultPrompt": [
+					"Summarize the pages and CMS collections in this Framer project",
+					"Add a pricing section to the home page of my Framer site",
+					"Find text on my Framer site that doesn’t match our tone of voice"
+				],
+				"brandColor": "#0099FF",
+				"composerIcon": "./assets/icon.svg",
+				"logo": "./assets/logo.svg"
+			}
+		}
+	}
+}

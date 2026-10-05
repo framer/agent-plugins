@@ -1,0 +1,20 @@
+{
+	"name": "framer",
+	"interface": {
+		"displayName": "Framer"
+	},
+	"plugins": [
+		{
+			"name": "framer",
+			"source": {
+				"source": "url",
+				"url": "https://github.com/framer/agent-plugins.git"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "ON_INSTALL"
+			},
+			"category": "Creativity"
+		}
+	]
+}

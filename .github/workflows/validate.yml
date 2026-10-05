@@ -1,0 +1,42 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # No package.json in the repository: Claude installs a root lockfile's dependencies along with the plugin.
+      - name: Install validators
+        run: |
+          pip install check-jsonschema==0.33.0
+          npm install --global @anthropic-ai/claude-code
+
+      - name: Check versions match
+        run: node scripts/check-versions.mjs
+
+      - name: Validate Agent Plugins manifests
+        run: |
+          check-jsonschema --schemafile https://agent-plugins.org/schemas/1.0.0/plugin.schema.json plugin.json
+          check-jsonschema --schemafile https://agent-plugins.org/schemas/1.0.0/mcp.schema.json mcp.json
+
+      - name: Validate MCP Registry entry
+        run: check-jsonschema --schemafile https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json server.json
+
+      - name: Validate Claude plugin and marketplace
+        run: |
+          claude plugin validate .claude-plugin/plugin.json
+          claude plugin validate .

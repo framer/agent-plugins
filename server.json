@@ -1,0 +1,18 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "com.framer/mcp",
+	"title": "Framer",
+	"description": "Read and edit Framer projects: pages, components, styles, and CMS collections.",
+	"repository": {
+		"url": "https://github.com/framer/agent-plugins",
+		"source": "github"
+	},
+	"websiteUrl": "https://www.framer.com",
+	"version": "1.0.0",
+	"remotes": [
+		{
+			"type": "streamable-http",
+			"url": "https://mcp.framer.com/mcp"
+		}
+	]
+}
