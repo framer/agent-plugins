@@ -10,7 +10,14 @@
 	"homepage": "https://github.com/framer/agent-plugins",
 	"repository": "https://github.com/framer/agent-plugins",
 	"license": "MIT",
-	"keywords": ["framer", "website", "design", "cms", "no-code", "mcp"],
+	"keywords": [
+		"framer",
+		"website",
+		"design",
+		"cms",
+		"no-code",
+		"mcp"
+	],
 	"extensions": {
 		"com.openai": {
 			"interface": {
@@ -19,8 +26,13 @@
 				"longDescription": "Open a Framer project by URL and work on it from a conversation: inspect pages, components, styles, and CMS collections, and make changes on a branch you can review in Framer.",
 				"developerName": "Framer",
 				"category": "Creativity",
-				"capabilities": ["Interactive", "Read", "Write"],
+				"capabilities": [
+					"Interactive",
+					"Read",
+					"Write"
+				],
 				"websiteURL": "https://www.framer.com",
+				"supportURL": "https://www.framer.com/contact/",
 				"privacyPolicyURL": "https://www.framer.com/legal/privacy-statement/",
 				"termsOfServiceURL": "https://www.framer.com/legal/terms-of-service/",
 				"defaultPrompt": [

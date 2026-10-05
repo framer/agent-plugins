@@ -10,5 +10,16 @@
 	"homepage": "https://github.com/framer/agent-plugins",
 	"repository": "https://github.com/framer/agent-plugins",
 	"license": "MIT",
-	"keywords": ["framer", "website", "design", "cms", "no-code", "mcp"]
+	"keywords": [
+		"framer",
+		"website",
+		"design",
+		"cms",
+		"no-code",
+		"mcp"
+	],
+	"icon": "./assets/logo.svg",
+	"supportUrl": "https://www.framer.com/contact/",
+	"privacyPolicyUrl": "https://www.framer.com/legal/privacy-statement/",
+	"termsOfServiceUrl": "https://www.framer.com/legal/terms-of-service/"
 }
