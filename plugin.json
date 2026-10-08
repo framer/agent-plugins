@@ -22,7 +22,7 @@
 		"com.openai": {
 			"interface": {
 				"displayName": "Framer",
-				"shortDescription": "Design, build, and edit your Framer sites",
+				"shortDescription": "Design, build, and edit sites",
 				"longDescription": "Framer is where teams design, build, and publish websites.\n\nShare a project URL and describe what you want, from adding a section or rewriting copy to building components and organizing your CMS. Everything it changes stays editable on the canvas.",
 				"developerName": "Framer",
 				"category": "Creativity",
