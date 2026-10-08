@@ -2,7 +2,7 @@
 	"name": "framer",
 	"displayName": "Framer",
 	"version": "1.0.0",
-	"description": "Read and edit Framer projects through the Framer MCP server.",
+	"description": "Design, build, and edit your Framer sites",
 	"author": {
 		"name": "Framer",
 		"url": "https://www.framer.com"
@@ -10,7 +10,14 @@
 	"homepage": "https://github.com/framer/agent-plugins",
 	"repository": "https://github.com/framer/agent-plugins",
 	"license": "MIT",
-	"keywords": ["framer", "website", "design", "cms", "no-code", "mcp"],
+	"keywords": [
+		"framer",
+		"website",
+		"design",
+		"cms",
+		"no-code",
+		"mcp"
+	],
 	"logo": "assets/logo.svg",
 	"mcpServers": "./.mcp.json"
 }

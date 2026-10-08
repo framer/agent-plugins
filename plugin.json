@@ -2,7 +2,7 @@
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
 	"name": "framer",
 	"version": "1.0.0",
-	"description": "Read and edit Framer projects through the Framer MCP server.",
+	"description": "Design, build, and edit your Framer sites",
 	"author": {
 		"name": "Framer",
 		"url": "https://www.framer.com"
@@ -22,8 +22,8 @@
 		"com.openai": {
 			"interface": {
 				"displayName": "Framer",
-				"shortDescription": "Read and edit Framer projects",
-				"longDescription": "Open a Framer project by URL and work on it from a conversation: inspect pages, components, styles, and CMS collections, and make changes on a branch you can review in Framer.",
+				"shortDescription": "Design, build, and edit your Framer sites",
+				"longDescription": "Framer is where teams design, build, and publish websites.\n\nShare a project URL and describe what you want, from adding a section or rewriting copy to building components and organizing your CMS. Everything it changes stays editable on the canvas.",
 				"developerName": "Framer",
 				"category": "Creativity",
 				"capabilities": [

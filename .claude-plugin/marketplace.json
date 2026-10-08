@@ -10,7 +10,7 @@
 		{
 			"name": "framer",
 			"source": "./",
-			"description": "Read and edit Framer projects through the Framer MCP server.",
+			"description": "Design, build, and edit your Framer sites",
 			"category": "design",
 			"homepage": "https://github.com/framer/agent-plugins"
 		}
