@@ -1,8 +1,8 @@
 {
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
 	"name": "framer",
-	"version": "1.0.0",
-	"description": "Design, build, and edit your Framer sites",
+	"version": "1.0.1",
+	"description": "Design, update, and publish websites with Framer",
 	"author": {
 		"name": "Framer",
 		"url": "https://www.framer.com"
@@ -22,8 +22,8 @@
 		"com.openai": {
 			"interface": {
 				"displayName": "Framer",
-				"shortDescription": "Design, build, and edit sites",
-				"longDescription": "Framer is where teams design, build, and publish websites.\n\nShare a project URL and describe what you want, from adding a section or rewriting copy to building components and organizing your CMS. Everything it changes stays editable on the canvas.",
+				"shortDescription": "Design and publish websites",
+				"longDescription": "Design, update, and publish Framer websites from your chat. Connect your Framer account, share a project link, and describe what you want to build or change. Create pages using your existing styles and components, adjust layouts, update copy, and manage CMS collections.\n\nKeep iterating with your agent, or open Framer to review and refine the result in the visual editor. When you’re ready, publish your changes yourself or ask your agent to publish them for you.",
 				"developerName": "Framer",
 				"category": "Creativity",
 				"capabilities": [
@@ -36,9 +36,9 @@
 				"privacyPolicyURL": "https://www.framer.com/legal/privacy-statement/",
 				"termsOfServiceURL": "https://www.framer.com/legal/terms-of-service/",
 				"defaultPrompt": [
-					"Summarize the pages and CMS collections in this Framer project",
-					"Add a pricing section to the home page of my Framer site",
-					"Find text on my Framer site that doesn’t match our tone of voice"
+					"Help me build and publish my site in Framer",
+					"Create a new landing page in my site using my existing styles and components",
+					"Turn these notes into a blog post in my Framer CMS and schedule it to publish"
 				],
 				"brandColor": "#0099FF",
 				"composerIcon": "./assets/icon.svg",
