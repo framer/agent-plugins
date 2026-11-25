@@ -8,18 +8,6 @@ Add Framer from your agent’s plugin directory: [Claude](https://claude.ai/dire
 
 Other agents can connect to the MCP server at `https://mcp.framer.com/mcp`.
 
-### Install locally in Antigravity
-
-From the root of this repository, run:
-
-```sh
-agy plugin validate .
-agy plugin install .
-agy plugin list
-```
-
-Open a new conversation, connect your Framer account when prompted, and paste the URL of a Framer project you already have access to. Try asking Antigravity to list the project's pages without making changes.
-
 ## Data
 
 The plugin connects your agent to `https://mcp.framer.com/mcp`. What the agent reads from or changes in your projects goes through Framer’s servers, under the [Framer Privacy Statement](https://www.framer.com/legal/privacy-statement/). Nothing runs on your computer.

@@ -3,17 +3,26 @@
   "name": "framer",
   "displayName": "Framer",
   "version": "1.0.1",
-  "description": "Design, update, and publish websites with Framer.",
-  "logo": "assets/logo.svg",
+  "description": "Design, update, and publish websites with Framer",
+  "logo": "assets/logo-antigravity.svg",
   "suggestedPrompts": [
-    "List the pages in this Framer project without changing anything.",
-    "Draft an update to this CMS item and ask me before applying it."
+    "Help me build and publish my site in Framer",
+    "Create a new landing page in my site using my existing styles and components",
+    "Turn these notes into a blog post in my Framer CMS and schedule it to publish"
   ],
   "author": {
     "name": "Framer",
     "url": "https://www.framer.com"
   },
-  "homepage": "https://www.framer.com/help/articles/getting-started-with-framer-mcp/",
+  "homepage": "https://github.com/framer/agent-plugins",
   "repository": "https://github.com/framer/agent-plugins",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "framer",
+    "website",
+    "design",
+    "cms",
+    "no-code",
+    "mcp"
+  ]
 }
