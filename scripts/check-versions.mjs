@@ -4,7 +4,7 @@
 
 import { readFile } from "node:fs/promises"
 
-const manifests = ["plugin.json", ".claude-plugin/plugin.json", ".cursor-plugin/plugin.json", "server.json"]
+const manifests = ["plugin.json", ".antigravity-plugin/plugin.json", ".claude-plugin/plugin.json", ".cursor-plugin/plugin.json", "server.json"]
 
 const versions = await Promise.all(
 	manifests.map(async path => {
