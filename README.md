@@ -4,7 +4,7 @@ Lets your AI agent read and edit your [Framer](https://www.framer.com) projects.
 
 ## Install
 
-Add Framer from your agent’s plugin directory: [Claude](https://claude.ai/directory), [ChatGPT and Codex](https://chatgpt.com/plugins), [Cursor](https://cursor.com/marketplace), or the Awesome Copilot marketplace in VS Code. You sign in with your Framer account the first time it’s used.
+Add Framer from your agent’s plugin directory: [Claude](https://claude.ai/directory), [ChatGPT and Codex](https://chatgpt.com/plugins), [Cursor](https://cursor.com/marketplace), the Awesome Copilot marketplace in VS Code, or the [Antigravity Marketplace](https://antigravity.google/docs/marketplace/) once Framer’s listing is approved. You sign in with your Framer account the first time it’s used.
 
 Other agents can connect to the MCP server at `https://mcp.framer.com/mcp`.
 
