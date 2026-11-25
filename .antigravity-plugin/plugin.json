@@ -1,0 +1,19 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "framer",
+  "displayName": "Framer",
+  "version": "1.0.1",
+  "description": "Design, update, and publish websites with Framer.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "List the pages in this Framer project without changing anything.",
+    "Draft an update to this CMS item and ask me before applying it."
+  ],
+  "author": {
+    "name": "Framer",
+    "url": "https://www.framer.com"
+  },
+  "homepage": "https://www.framer.com/help/articles/getting-started-with-framer-mcp/",
+  "repository": "https://github.com/framer/agent-plugins",
+  "license": "MIT"
+}
